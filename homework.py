@@ -1,19 +1,19 @@
 # a
-def bigger():
+def biggest_number():
     print('1) Функция выводит большее число.')
     a = input('Type 1st number: ')
     b = input('Type 2nd number: ')
     if a > b:
-        print('The biggest number is: ', a)
+        return a
     else:
-        print('The biggest number is: ', b)
+        return b
 
 
-bigger()
+biggest_number()
 
 
 # b
-def smallest():
+def smallest_number():
     print('2) Функция выводит меньшее число.')
     a = input('Type 1st number: ')
     b = input('Type 2nd number: ')
@@ -26,17 +26,17 @@ def smallest():
         print('The smallest number is: ', c)
 
 
-smallest()
+smallest_number()
 
 
 # c
-def module():
+def module_of_number():
     print('3)Функция выводит модуль числа.')
     a = input('Type a number: ')
     print('Module of your number is: ', abs(int(a)))
 
 
-module()
+module_of_number()
 
 
 # d
@@ -52,7 +52,7 @@ sum_of_numbers()
 
 
 # e
-def positive():
+def is_positive_number():
     print('5)Функция выводит информацию про знак числа.')
     a = input('Type a number: ')
     if int(a) > 0:
@@ -63,5 +63,5 @@ def positive():
         print('Negative')
 
 
-positive()
+is_positive_number()
 
